@@ -1,3 +1,5 @@
+/* This is a test file */
+
 public class Contructor{
     public static void main(String[] a){
         Circle c1 = new Circle(10f);
@@ -14,16 +16,12 @@ public class Contructor{
 class Circle{
     public float radius;
 
-    public Circle(float r) {
-        radius = r;
+    public Circle(float r) {        
+	   this.radius = r;
     }
 
     public float area(){
         return 3.141f * radius * radius;
     }
 }
-
-
-
-
 
